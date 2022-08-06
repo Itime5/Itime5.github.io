@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     background-color: black;
     color: white;
    }
@@ -32,12 +32,13 @@
     background-color: white;
     color: black;
     border-radius: 5px;
+    transition-duration: 0.2s;
    }
    .menu li {
     padding: 5px 14px;
    }
    /* DROPDOWN MENU */
-   .services {
+   .list {
     position: relative; 
    }
    .dropdown {
@@ -59,7 +60,7 @@
     transform: translateY(0px);
     pointer-events: auto;
    }
-   .services:hover .dropdown {
+   .list:hover .dropdown {
     display: block;
     opacity: 1;
     transform: translateY(0px);
@@ -71,3 +72,121 @@ p{
    font-family: Arial, Helvetica, sans-serif; 
 }
 
+h1{
+   font-size: 35px;
+   text-align: center;
+   padding: 20px;
+   margin-bottom: 50px;
+}
+
+div.a{
+   background-image: url('CRMP.jpeg');
+   color:aliceblue;
+   background-size: 100px;
+   border-radius: 5px;
+   text-align: center;
+}
+
+h2{
+   border-radius: 10px;
+   margin: 20px;
+   text-align:center;
+   padding-top: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   background-color: black;
+   color: white;
+   font-size: 40px;
+   font-weight: bold;
+   display: inline-block;
+   width: 40%;
+}
+
+h3{
+   padding: 20px;
+   margin-bottom: 100px;
+   text-align: center;
+   border: 3px;
+   border-style: dashed;
+   border-radius: 5px;
+   margin: 20px;
+   display: inline-block;
+   width: 90%;
+}
+
+img{
+   display: inline;
+   width: 40%;
+   padding: 20px;
+   border-radius: 5px;
+}
+
+h4{
+   padding-top: 150px;
+   padding-left: 75px;
+   padding-right: 20px;
+   position: absolute;
+   display: inline-block;
+   width: 40%;
+   height: 10%;
+   text-align: center;
+   color: aliceblue;
+   font-size: larger;
+}
+
+div.b{
+   background-color: black;
+   margin-top: 100px;
+   padding-top: 0px;
+}
+
+br.a{
+   padding: 100px;
+}
+
+img.a{
+   padding: 20;
+   position:relative;
+}
+
+.bstyle{
+   background-color: black;
+   color: aliceblue;
+   padding: 10px;
+   size: 15px;
+   text-align: center;
+   margin-left: 165px;
+}
+
+.bstyle2{
+   background-color: black;
+   color: aliceblue;
+   padding: 10px;
+   size: 15px;
+   text-align: center;
+   margin-left: 345px;
+}
+
+button:hover{
+   background-color: aliceblue;
+}
+
+.fa-heart{
+   size: 100%;
+}
+
+h5{
+   padding: 20px;
+   text-align: center;
+   font-weight: bold;
+   font-size: large;
+}
+
+div.c{
+   border-radius: 2px;
+   border-color: black;
+   border-style: solid;
+   padding: 10px;
+   margin: 10px;
+}
